@@ -1,0 +1,113 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: 300;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #3C49B7;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #4d4d4d;
+}
+p { 
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-size: 1.0em;
+    font-weight: 300;
+    line-height: 1.0em;
+    color: #4d4d4d;
+}
+footer {
+    border-top: 1px solid #000000;
+    font-size: 1.0em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.2em;
+}
+
+ul.posts li {
+  list-style: none;
+}
+
+iframe{
+    overflow:hidden;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 45%;
+  padding: 10px;
+}
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Nav bar */
+
+/* Add a black background color to the top navigation */
+.topnav {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+    display: inline;
+    margin-right: 20px;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: 300;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: blue;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  padding-top: 13px;
+  float: right;
+}
+
+
+.my-img {
+
+  width:100%;
+  max-width:600px;
+  height:auto;

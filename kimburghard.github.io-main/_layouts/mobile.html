@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="shortcut icon" type="image/jpg" href="favicon_m.jpg">
+    {% seo %}
+<style>
+  /* General layout and padding styles */
+  html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .topnav {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .topnav .name {
+    font-size: 24px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 8px;
+  }
+
+  .topnav .nav-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .topnav .nav-links a {
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+  }
+
+  hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+  }
+
+  .main-content {
+    width: 100%;
+    padding: 0 20px; /* <-- consistent horizontal buffer */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content {
+    max-width: 700px; /* cap for large screens */
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-top: 0;
+  }
+
+  footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  footer ul li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  footer ul li a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width: 768px) {
+    .topnav .name {
+      font-size: 20px;
+    }
+
+    .topnav .nav-links a {
+      font-size: 16px;
+    }
+
+    .main-content {
+      padding: 0 16px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    footer ul li {
+      display: block;
+      margin: 10px 0;
+    }
+
+    footer ul li a {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .topnav .name {
+      font-size: 18px;
+    }
+
+    .topnav .nav-links a {
+      font-size: 14px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    footer ul li a {
+      font-size: 14px;
+    }
+  }
+</style>
+
+
+  </head>
+  <body>
+    
+  <div class="topnav">
+    <a href="/" class="name">Annais Gangolf</a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/cv">CV</a>
+      <a href="/research">Research</a>
+    </div>
+  </div>
+    
+    <hr>
+
+    <div class="main-content">
+      {{ content }}
+    </div><!-- /.main-content -->
+
+    <footer>
+      <ul>
+        <li><a href="mailto:gangolfannais@gmail.com">email</a></li>
+        <li><a href="https://github.com/annaisgangolf" target="_blank">github</a></li>
+        <li><a href="https://www.linkedin.com/in/annais-gangolf-1a0406206/" target="_blank">linkedin</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

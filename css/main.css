@@ -3,7 +3,7 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Georgia', 'Serif';
     padding: 0px;
     list-style: none;
     font-weight: 300;
@@ -20,7 +20,7 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Georgia', 'Serif';
     padding: 0px;
     list-style: none;
     font-size: 1.5em;
@@ -29,7 +29,7 @@ h1 {
     color: #4d4d4d;
 }
 p { 
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Georgia', 'Serif';
     padding: 0px;
     list-style: none;
     font-size: 1.0em;
@@ -76,7 +76,7 @@ iframe{
 
 /* Add a black background color to the top navigation */
 .topnav {
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Georgia', 'Serif';
     padding: 0px;
     list-style: none;
     font-weight: 300;
@@ -88,7 +88,7 @@ iframe{
   float: left;
     display: inline;
     margin-right: 20px;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Georgia', 'Serif';
     padding: 0px;
     list-style: none;
     font-weight: 300;
